@@ -1,0 +1,42 @@
+.bonuses {
+	position: relative;
+	height: 150px;
+	background: linear-gradient(180deg, #D2333E 0%, #F54B55 100%);
+}
+
+.bonuses__fire {
+	padding: 0 8px;
+}
+
+.bonuses__ellipse {
+	position: absolute;
+	top: -50px;
+	left: 20px;
+    right: 20px;
+	display: flex;
+	justify-content: space-between;
+	height: 105px;
+	padding: 0 20px;
+	background: #fff;
+	box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+}
+
+.bonuses__title {
+	padding-top: 18px;
+	line-height: 32px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+}
+
+.bonuses__loss {
+	display: flex;
+	margin-top: 12px;
+	color: #979797;
+}
+
+.bonuses__btn {
+	margin-top: 40px;
+	cursor: pointer;
+}
